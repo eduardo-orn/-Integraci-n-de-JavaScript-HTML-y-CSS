@@ -58,6 +58,13 @@ h3 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.margen{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background-color: rgba(225, 229, 241, 0.788);
+}
 
 footer {
   font-size: 25px;
