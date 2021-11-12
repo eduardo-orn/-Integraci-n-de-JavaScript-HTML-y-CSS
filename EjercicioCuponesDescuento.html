@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="EjercicioCuponesDescuento.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+          <li>
+            <a href="/Cal_Estadisticos.html">
+              <button class="btnEst">ESTADISTICA</button>
+            </a>
+          </li>
+          <a href="/Figuras.html">
+            <button class="btnFig">FIGURAS</button>
+          </a>
+          <li></li>
+        </ul>
+      </nav>
+    </div>
+    <header>
+      <div class="Titulo">
+        <p>Calculadora de Descuentos</p>
+      </div>
+    </header>
+
+    <section>
+      <div class="Subtitulo">
+        <br />
+        <h2>Calcula el precio a pagar de tus productos con descuento</h2>
+        <br />
+      </div>
+
+      <form action="">
+        <div class="DiseñoFondo">
+          <br />
+          <label for="InputPrice">Escribe el precio de tu Producto: </label>
+        </div>
+        <div class="DiseñoFondo">
+          <input id="InputPrice" type="number" class="margen1" />
+        </div>
+        <div class="DiseñoFondo">
+          <label for="InputDes">Escribe el descuento de tu Producto: </label>
+        </div>
+        <div class="DiseñoFondo">
+          <input id="InputDesc" type="number" class="margen1" />
+        </div>
+        <div class="DiseñoFondo">
+          <label 
+            >Escribe el cupon de descuento para tu Producto:
+          </label>
+        </div>
+        <div class="DiseñoFondo">
+          <input id="InputCupon" type="String" class="margen1" />
+        </div>
+        <div class="DiseñoFondo">
+          <label>Cupones disponibles (melollevo, suerte, articulox)</label>
+        </div>
+        <div class="DiseñoFondo">
+          <button
+            type="button"
+            onclick="onClickButtonPriceDiscount()"
+            class="boton"
+          >
+            Calcular precio
+          </button>
+        </div>
+        <div class="DiseñoFondo">
+          <p id="ResultPrice" class="Resultado">== $0</p>
+          <br />
+        </div>
+      </form>
+
+      <div class="Regresar2">
+        <a href="index.html">
+          <input type="button" value="Regresar" class="Regresar"
+        /></a>
+      </div>
+    </section>
+
+    <footer>
+      <p><p>Integración de JavaScript, HTML y CSS</p></p>
+    </footer>
+    <script src="/EjercicioCuponesDescuento.js"></script>
+  </body>
+</html>

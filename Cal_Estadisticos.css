@@ -1,0 +1,145 @@
+body {
+  background-color: rgba(10, 0, 32, 0.973);
+}
+
+.Titulo {
+  background-color: rgb(50, 14, 85);
+  text-align: center;
+  font-size: 45px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.block{
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-left: 70px;
+}
+
+div {
+  border-radius: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-color: black;
+}
+
+label {
+  text-align: center;
+}
+
+.Borde {
+  background: rgb(255, 255, 255);
+  border-left-width: 70px;
+  border-right-width: 70px;
+  border-bottom-style: none;
+}
+
+.Titulo2 {
+  text-align: center;
+  color: rgb(44, 6, 80);
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.TextoEscribe {
+  font-size: 30px;
+  text-align: center;
+  background-color: rgba(47, 0, 255, 0.288);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 30px;
+  box-shadow: 4px 6px rgb(255, 255, 255);
+}
+
+h3 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+footer {
+  font-size: 25px;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  color: white;
+  height: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.divRegresar {
+  text-align: center;
+}
+
+.Regresar {
+  border-radius: 10px;
+  width: 130px;
+  border-style: groove;
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  background-color: rgba(19, 5, 82, 0.842);
+  border-color: rgb(83, 81, 85);
+  border-width: 4px;
+  color: white;
+}
+
+nav {
+  font-size: 20px;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 3px 10px;
+}
+
+.btnDesc {
+  border-radius: 10px;
+  width: 160px;
+  height: 50px;
+  font-size: 20px;
+  background-color: rgb(255, 30, 14);
+  border-color: white;
+  border-style: solid;
+  color: white;
+  margin-top: 20px;
+}
+
+.btnFig {
+  border-radius: 10px;
+  width: 160px;
+  height: 50px;
+  font-size: 20px;
+  background-color: rgb(3, 73, 46);
+  border-color: white;
+  border-style: solid;
+  color: white;
+  margin-top: 20px;
+}
+
+.inputs-container {
+  margin: 0 auto;
+  width: 280px;
+  height: 40px;
+  padding: 5px;
+}
+
+.resultados {
+  text-align: center;
+  color: #ffffff;
+  font-size: 28px;
+  font-size: 1.75rem;
+  line-height: 2.625rem;
+}
+
+.button {
+  width: 120px;
+  height: 30px;
+  display: block;
+  margin: 20px auto;
+  background-color: #3d0d64;
+  border-radius: 20px;
+  color: #fdffff;
+}

@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+header{
+    background-color: rgb(105, 2, 2);
+}
+
+.Titulo{
+    text-align: center;
+    font-size: 65px;
+    color: rgb(255, 255, 255);
+}
+
+main .Figuras{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(0, 97, 13);
+    border-color: rgb(255, 255, 255);
+    border-radius: 40px;
+    margin-left: 40px;
+    border-width: 10px;
+    font-size: 40px;
+    color: rgb(240, 185, 140);
+}
+
+
+
+main .Descuentos{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(184, 0, 0, 0.486);
+    border-color: rgb(255, 255, 255);
+    border-radius: 40px;
+    margin-left: 40px;
+    border-width: 10px;
+    font-size: 40px;
+    color: rgb(240, 185, 140);
+}
+
+main .Estadistica{
+    width: 400px;
+    border-radius: 40px;
+    height: 400px;
+    background-color: rgb(47, 0, 85);
+    border-color: rgb(255, 255, 255);
+    margin-left: 40px;
+    border-width: 10px;
+    font-size: 40px;
+    color: rgb(240, 185, 140);
+}
+
+main {
+    background-color: #000000d8;
+    height: auto;
+    width: auto;
+  }
+footer{
+    background-color: rgb(12, 12, 12);
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    height: 30px;
+}
+
+p{
+    margin-top: 50px;
+}
+
+
+
+  
+  
+  
+
+  
+
+

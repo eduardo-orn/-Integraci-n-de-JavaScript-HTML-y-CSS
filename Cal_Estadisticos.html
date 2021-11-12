@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moda</title>
+    <link rel="stylesheet" href="Cal_Estadisticos.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="/Figuras.html">
+            <button class="btnFig">FIGURAS</button>
+          </a>
+        </li>
+        <a href="/EjercicioCuponesDescuento.html">
+          <button class="btnDesc">DESCUENTOS</button>
+        </a>
+        <li></li>
+      </ul>
+    </nav>
+    <header>
+      <h1 class="Titulo">Calculos de la Moda, Mediana y Media</h1>
+    </header>
+    <div class="block">
+      <section>
+        <div class="Borde">
+          <h2 class="Titulo2">Moda</h2>
+        </div>
+        <form action="">
+          <div class="TextoEscribe">
+            <div>
+              <h3 for="InputDatos">
+                Ingresa los numeros. Nota(no olvides poner coma).
+              </h3>
+            </div>
+
+            <input
+              id="InputDatos"
+              type="text"
+              class="margen"
+              placeholder="Ej. 1, 2, 3.."
+            />
+            <button type="button" onclick="ClickCalcularModa()" class="button">
+              Calcular la Moda
+            </button>
+            <div class="resultados">
+              <p id="Moda">Resultado</p>
+              <br />
+            </div>
+          </div>
+        </form>
+      </section>
+
+      <section>
+        <div class="Borde">
+          <h2 class="Titulo2">Mediana</h2>
+        </div>
+        <form action="">
+          <div class="TextoEscribe">
+            <div>
+              <h3 for="InputDatos2">
+                Ingresa los numeros. Nota(no olvides poner coma).
+              </h3>
+            </div>
+            <input
+              id="InputDatos2"
+              type="text"
+              class="margen"
+              placeholder="Ej. 1, 2, 3.."
+            />
+            <button
+              type="button"
+              onclick="ClickCalcularMediana()"
+              class="button"
+            >
+              Calcular la Mediana
+            </button>
+            <div class="resultados">
+              <p id="ListOrdenada">Lista Ordenada...</p>
+              <p id="Mediana">Mediana...</p>
+              <br />
+            </div>
+          </div>
+        </form>
+      </section>
+
+      <section>
+        <div class="Borde">
+          <h2 class="Titulo2">Media o Promedio</h2>
+        </div>
+        <div class="TextoEscribe">
+          <form>
+            <div>
+              <h3 for="InputDatos2">
+                Ingresa los numeros. Nota(no olvides poner coma).
+              </h3>
+            </div>
+
+            <div class="inputs-container">
+              <input
+                type="text"
+                name=""
+                id="promedio_input"
+                class="margen"
+                placeholder="Ej. 1, 2, 3.."
+              />
+            </div>
+            <div>
+              <button type="button" class="button" onclick="Promedio()">
+                Calcular
+              </button>
+            </div>
+            <div class="resultados">
+              <p id="promedio_result">Promedio</p>
+              <br />
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <div class="divRegresar">
+      <a href="index.html">
+        <input type="button" value="Regresar" class="Regresar"
+      /></a>
+    </div>
+
+    <footer><p id="foot">Integración de JavaScript, HTML y CSS</p></footer>
+
+    <script src="Cal_Estadisticos.js"></script>
+  </body>
+</html>
